@@ -1,0 +1,9 @@
+[submodule "mainstream-contracts"]
+	path = mainstream-contracts
+	url = git@github.com:brotherday/mainstream-contracts.git
+[submodule "mainstream-backend"]
+	path = mainstream-backend
+	url = git@github.com:brotherday/mainstream-backend.git
+[submodule "mainstream-frontend"]
+	path = mainstream-frontend
+	url = git@github.com:brotherday/mainstream-frontend.git
