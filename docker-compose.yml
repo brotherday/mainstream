@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  backend:
+    image: ghcr.io/brotherday/mainstream/backend:v1.0
+    restart: always
+    ports:
+      - 3000:3000
+    networks:
+      - mainstream
+
+  frontend:
+    image: ghcr.io/brotherday/mainstream/frontend:v1.0
+    restart: always
+    ports:
+      - 80:80
+    networks:
+      - mainstream
+
+networks:
+  mainstream:
